@@ -1,0 +1,31 @@
+*{
+  box-sizing: border-box;
+}
+
+div {
+  margin: auto;
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  border-radius: 50%;
+  display: flex;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  line-height: 100px;
+}
+
+img {
+  width: 30%;
+  margin: auto;
+  
+}
+
+div:hover {
+  width: 300px;
+  border-radius: 20px;
+  content: BOOK;
+  color: white;
+}
