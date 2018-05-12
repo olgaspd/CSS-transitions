@@ -3,6 +3,10 @@
 }
 
 div {
+	background-image: url(icon.svg);
+  background-repeat: no-repeat;
+	background-size: 30px;
+	background-position: center;
   margin: auto;
   width: 100px;
   height: 100px;
@@ -17,15 +21,20 @@ h2 {
   line-height: 100px;
 }
 
-img {
-  width: 30%;
-  margin: auto;
-  
-}
+
 
 div:hover {
   width: 300px;
-  border-radius: 20px;
-  content: BOOK;
-  color: white;
+  border-radius: 50px;
+  background-position: left 40px center;
 }
+
+	div:after {
+		content: "BOOK";
+		font-size: 30px;
+		color: white;
+		position: absolute;
+		left:415px;
+		top: 40px;
+	}
+
