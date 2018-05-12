@@ -16,9 +16,18 @@ div {
 
 div:hover {
 	background-image: url(blackrect.png);
+	background-position: right 400px center;
 	
 }
 
 div:active {
 	background-image: url(greenrect.png);
 }
+
+/*
+.black {
+	background-color: black;
+	opacity: 100px;
+	margin-left: 460px;
+}
+*/
