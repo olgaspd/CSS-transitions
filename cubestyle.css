@@ -15,14 +15,42 @@ div {
 }
 
 div:hover {
-	background-image: url(blackrect.png);
+	/*background-image: url(blackrect.png); */
 	background-position: right 400px center;
 	
 }
 
-div:active {
+/*div:active {
 	background-image: url(greenrect.png);
+} */
+
+
+div:after {
+	content: "";
+	display: block; 
+	width: 200px;
+	background-color: black;
+	height: 200px;
+	background-position: right 100px center;
+	
 }
+
+div:after {
+	content: "";
+	display: block; 
+	width: 200px;
+	background-color: forestgreen;
+	height: 200px;
+	background-position: right 100px center;
+}
+
+/*
+	font-size: 30px;
+	color: white;
+	position: absolute;
+	left:415px;
+	top: 40px;
+*/
 
 /*
 .black {
